@@ -55,6 +55,8 @@ Brooklyn es el barrio más grande de la ciudad y, por lo tanto, donde se registr
 
 ![sql](./pics/borough.png)
 
+Otra forma de visualizar las zonas donde el indice de crimen es mayor es mediante un mapa de calor.
+
 El mapa de calor muestra la distribución de los incidentes de disparos en la ciudad de Nueva York. Los puntos rojos más intensos representan las áreas donde se han reportado más incidentes de disparos, mientras que los puntos menos intensos representan las áreas donde se han reportado menos incidentes.
 
 ![sql](./pics/heatmap.png)
