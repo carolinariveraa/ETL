@@ -33,6 +33,8 @@ Para la limpieza de datos he eliminado aquellas columnas que no interesaban y en
 
 ## 5. Carga
 
+Una vez que se han realizado las operaciones ETL con SQLAlchemy, se cargan las tres tablas en una base de datos SQL para poder analizar los datos. A partir de ahí, se pueden crear las relaciones necesarias entre las tablas y lanzar consultas SQL para obtener información valiosa y llegar a conclusiones. En este proyecto, se ha utilizado este enfoque para analizar el índice de criminalidad en Nueva York y su relación con otros factores como el precio de la vivienda y la densidad de población en cada distrito.
+
 ## 6. Análisis 
 
 - Relación entre la cantidad de delitos con el precio medio de las ventas de casas relacionado con la cantidad de población de cada zona. 
@@ -50,6 +52,16 @@ Para la limpieza de datos he eliminado aquellas columnas que no interesaban y en
 ## 7. Conclusión
 
 Brooklyn es el barrio más grande de la ciudad y, por lo tanto, donde se registran la mayor parte de incidentes.
+
+![sql](./pics/borough.png)
+
+El mapa de calor muestra la distribución de los incidentes de disparos en la ciudad de Nueva York. Los puntos rojos más intensos representan las áreas donde se han reportado más incidentes de disparos, mientras que los puntos menos intensos representan las áreas donde se han reportado menos incidentes.
+
+![sql](./pics/heatmap.png)
+
+Ahora visualizamos con un gráfico cual es la mediana del precio al que se están vendiendo las casas por Borough en Nueva York. Dado que los distritos de Nueva York son grandes no se pueden sacar conclusiones estrictas de aquí ya qu ehabría que investigar por barrio.
+
+![sql](./pics/median_salesprice.png)
 
 ## 8. Referencias
 
