@@ -46,17 +46,31 @@ Una vez que se han realizado las operaciones ETL con SQLAlchemy, se cargan las t
 
 ## 6. Análisis 
 
-- Relación entre la cantidad de delitos con el precio medio de las ventas de casas relacionado con la cantidad de población de cada zona. 
+<details>
+  <summary>Delitos vs Precio de venta y alquiler de casas</summary>
+  <br>
 
-![sql](./pics/query1.png)
+  - Relación entre la cantidad de delitos con el precio medio de las ventas de casas relacionado con la cantidad de población de cada zona. 
 
-- Número de crimenes agrupado por mes 
+  ![sql](./pics/query1.png)
+</details>
 
-![sql](./pics/query2.png)
+<details>
+  <summary>Crimenes agrupados por mes</summary>
 
-- Cantidad de delitos por tipo de delito y su proporción en relación con el total de delitos cometidos en NY
+  - Número de crimenes agrupado por mes 
 
-![sql](./pics/query3.png)
+  ![sql](./pics/query2.png)
+</details>
+
+<details>
+  <summary>Tipo de delito y proporción</summary>
+
+  - Cantidad de delitos por tipo de delito y su proporción en relación con el total de delitos cometidos en NY
+
+  ![sql](./pics/query3.png)
+</details>
+<br>
 
 ## 7. Conclusión
 
