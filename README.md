@@ -22,7 +22,7 @@ Para la extracción de datos he acudido a varías páginas web. En primer lugar 
 
 Para completar la base de datos he accedido a la web NYC OpenData para sacar el número de habitantes por zona de New York 
 
-En segundo lugar el coste de casas por zona de la web..
+En segundo lugar el coste de casas por zona de la pagina NY Real Estate.
 
 Por último del New York State Department of Health la población agrupada por distrito de Nueva York
 
@@ -51,17 +51,17 @@ Una vez que se han realizado las operaciones ETL con SQLAlchemy, se cargan las t
 
 ## 7. Conclusión
 
-Brooklyn es el barrio más grande de la ciudad y, por lo tanto, donde se registran la mayor parte de incidentes.
+Brooklyn es el barrio más grande de la ciudad y, por lo tanto, donde se registran la mayor parte de incidentes. Tal y como se ve ve en el gráfico es en esta ciudad donde el indice de criminalidad es mayor seguido de Manhattan.
 
 ![sql](./pics/borough.png)
 
 Otra forma de visualizar las zonas donde el indice de crimen es mayor es mediante un mapa de calor.
 
-El mapa de calor muestra la distribución de los incidentes de disparos en la ciudad de Nueva York. Los puntos rojos más intensos representan las áreas donde se han reportado más incidentes de disparos, mientras que los puntos menos intensos representan las áreas donde se han reportado menos incidentes.
+El mapa de calor muestra la distribución de los incidentes en la ciudad de Nueva York. Los puntos más intensos representan las áreas donde se han reportado más incidentes de disparos, mientras que los puntos menos intensos representan las áreas donde se han reportado menos incidentes.
 
 ![sql](./pics/heatmap.png)
 
-Ahora visualizamos con un gráfico cual es la mediana del precio al que se están vendiendo las casas por Borough en Nueva York. Dado que los distritos de Nueva York son grandes no se pueden sacar conclusiones estrictas de aquí ya qu ehabría que investigar por barrio.
+Ahora visualizamos con un gráfico cual es la mediana del precio al que se están vendiendo las casas por Borough en Nueva York. Dado que los distritos de Nueva York son grandes no se pueden sacar conclusiones estrictas de aquí ya que habría que investigar por barrio.
 
 ![sql](./pics/median_salesprice.png)
 
