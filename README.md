@@ -82,9 +82,6 @@ Otra forma de visualizar las zonas donde el indice de crimen es mayor es mediant
 
 El mapa de calor muestra la distribución de los incidentes en la ciudad de Nueva York. Los puntos más intensos representan las áreas donde se han reportado más incidentes de disparos, mientras que los puntos menos intensos representan las áreas donde se han reportado menos incidentes.
 
-<iframe src="mex.html" width="100%" height="500px"></iframe>
-
-
 ![sql](./pics/heatmap.png)
 
 Ahora visualizamos con un gráfico cual es la mediana del precio al que se están vendiendo las casas por Borough en Nueva York. Dado que los distritos de Nueva York son grandes no se pueden sacar conclusiones estrictas de aquí ya que habría que investigar por barrio.
